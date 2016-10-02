@@ -1,4 +1,5 @@
 # coding=utf-8
+
 from numpy import *
 
 
@@ -21,7 +22,7 @@ def factorization(a):
     if m != n:
         print "\nThe matrix is not square"
     elif linalg.matrix_rank(a) != n:
-        print "\nThis is not a nonsingular matrix"
+        print "\nThis matrix is not nonsingular "
     else:
         L = eye(n, dtype=float)     # Initialize matrix L, U, P
         U = zeros((n, n), float)
