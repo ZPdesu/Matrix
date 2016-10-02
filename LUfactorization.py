@@ -22,7 +22,7 @@ def factorization(a):
     if m != n:
         print "\nThe matrix is not square"
     elif linalg.matrix_rank(a) != n:
-        print "\nThis matrix is not nonsingular "
+        print "\nThis is not a nonsingular matrix "
     else:
         L = eye(n, dtype=float)     # Initialize matrix L, U, P
         U = zeros((n, n), float)
