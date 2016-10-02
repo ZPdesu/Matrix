@@ -1,6 +1,6 @@
 # coding=utf-8
-
 from numpy import *
+_author_ = 'Zhu Peihao'
 
 
 def create_matrix():
