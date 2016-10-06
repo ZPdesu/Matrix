@@ -11,4 +11,5 @@ while a == 'yes':
     print "Matrix L = ", '\n', L
     print "Matrix U = ", '\n', U
     print "Matrix P = ", '\n', P
+
     a = raw_input("if continue, input yes \n")
